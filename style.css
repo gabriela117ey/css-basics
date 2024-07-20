@@ -1,0 +1,38 @@
+body
+    background-color: rgb(31, 46, 6);
+    color:rgb(48, 5, 5);
+    font-family:"Montserrat";
+
+}
+/* esta clase corresponde a la barra de navegacion */
+.gabriela{
+    position: fixed;
+    height:100% ;
+    width: 120px;
+    background-color:rgb(252, 227, 195)
+    font-size: 12px;
+}
+.sidebar-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:cadetblue
+}
+.sidebar-item:hover{
+    background-color: cornflowerblue;
+}
+a:visited{text-decoration: none;}
+a {text-decoration:none ;}
+#main{
+    margin-left: 120px;
+}
+header{
+    text-align: center;
+}
+#header-image{
+    max-width: 80%;
+    height: auto;
+
+}
